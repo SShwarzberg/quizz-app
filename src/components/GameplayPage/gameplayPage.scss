@@ -1,0 +1,52 @@
+.gameplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    .total-wins {
+        margin: 80px 0;
+        align-self: left;
+    }
+    .blob {
+        position: absolute;
+    }
+    .blob1 {
+        top: 0;
+        right: 0;
+    }
+    .blob2 {
+        left: 0;
+        bottom: 0;
+    }
+    form {
+        padding: 0 20px;
+        fieldset {
+            border-radius: 10px;
+            padding: 20px;
+            border: none;
+            legend {
+                font-size: 20px;
+                &:nth-child(1) {
+                    margin-bottom: 0px;
+                }
+                margin-bottom: 20px;
+            }
+            hr {
+                margin-bottom: 50px;
+            }
+        }
+        .submit {
+            cursor: pointer;
+            border: none;
+            background-color: #1f9423;
+            color: white;
+            height: 35px;
+            width: 100px;
+            border-radius: 5px;
+            display: block;
+            margin: 20px auto;
+        }
+    }
+}
